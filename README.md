@@ -18,7 +18,32 @@ Connect the esp8266 to your pc
  Go to "esp.huhn.me" and boot up the downloaded bin file 
  ```
 
-## Demo
+
+
+## Sceenshots
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/L8156tzV/Screenshot-2024-05-14-111807.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/nzyZW5Wb/Screenshot-2024-05-14-114259.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/nzyZW5Wb/Screenshot-2024-05-14-114259.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/xTWHRT5t/Screenshot-2024-05-14-114332.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/266VYPT1/Screenshot-2024-05-14-114348.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/vHxKZhmT/Screenshot-2024-05-14-114955.png)
+
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/rFYtQGG1/Screenshot-2024-05-14-115126.png)
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/d3VjTsvw/Screenshot-2024-05-14-115139.png)
+
+![ESP8266-Deauther Main Menu](https://i.postimg.cc/WbhYznXC/Screenshot-2024-05-11-221539.png)
 
 
 
@@ -26,7 +51,7 @@ Connect the esp8266 to your pc
 ## Usage/Examples
 
 
-```C++
+```C++ {
 const char *ssid = "your_AP_SSID";
 const char *password = "your_AP_PASSWORD";
 
@@ -128,28 +153,5 @@ void loop() {
     for (int i = 0; i < n; ++i) {
       String cmd = "sudo iw dev wlan0 disassoc " + String(hostname);
       Serial.println
-      ```
-## Sceenshots
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/L8156tzV/Screenshot-2024-05-14-111807.png)
+     } ```
 
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/nzyZW5Wb/Screenshot-2024-05-14-114259.png)
-
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/nzyZW5Wb/Screenshot-2024-05-14-114259.png)
-
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/xTWHRT5t/Screenshot-2024-05-14-114332.png)
-
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/266VYPT1/Screenshot-2024-05-14-114348.png)
-
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/vHxKZhmT/Screenshot-2024-05-14-114955.png)
-
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/rFYtQGG1/Screenshot-2024-05-14-115126.png)
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/d3VjTsvw/Screenshot-2024-05-14-115139.png)
-
-![ESP8266-Deauther Main Menu](https://i.postimg.cc/WbhYznXC/Screenshot-2024-05-11-221539.png)
