@@ -17,7 +17,9 @@ Connect the esp8266 to your pc
 ```bash
  Go to "esp.huhn.me" and boot up the downloaded bin file 
  ```
-
+# Access Attack pannel
+pass to Pwnd wifi : ```bash deauther ```
+Admin pannel url :  ```bash  https://192.168.4.1/ ```
 
 
 ## Sceenshots
